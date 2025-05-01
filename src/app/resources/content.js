@@ -120,7 +120,7 @@ const about = {
       },
       {
         company: "Gp Global",
-        timeframe: "2022 - 2023",
+        timeframe: "2021 - 2023",
         role: "UX UI Designer",
         achievements: [
           <>
