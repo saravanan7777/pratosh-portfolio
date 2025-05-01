@@ -6,6 +6,7 @@ import {
   Heading,
   Icon,
   IconButton,
+  RevealFx,
   SmartImage,
   Tag,
   Text,
@@ -50,6 +51,7 @@ export default function About() {
     },
   ];
   return (
+   
     <Column maxWidth="m">
       <Schema
         as="webPage"
@@ -75,6 +77,7 @@ export default function About() {
           <TableOfContents structure={structure} about={about} />
         </Column>
       )}
+       <RevealFx fillWidth speed="slow">
       <Flex fillWidth mobileDirection="column" horizontal="center">
         {about.avatar.display && (
           <Column
@@ -264,6 +267,8 @@ export default function About() {
           )}
         </Column>
       </Flex>
+      </RevealFx>
     </Column>
+  
   );
 }
