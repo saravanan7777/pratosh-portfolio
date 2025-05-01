@@ -7,7 +7,8 @@ const routes = {
   "/work": true,
   "/blog": false,
   "/gallery": true,
-  "/wallart":true
+  "/wallart":true,
+  "/BlenderModels":true,
 };
 
 // Enable password protection on selected routes

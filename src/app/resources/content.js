@@ -55,7 +55,7 @@ const home = {
   featured: {
     display: true,
     title: <>Recent project</>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "https://www.figma.com/proto/FnTlvENQhruuZHim5xEmnq/Workfiles?content-scaling=fixed&kind=proto&node-id=465-15&page-id=465%3A14&scaling=scale-down-width",
   },
   subline: (
     <>
@@ -222,6 +222,14 @@ const work = {
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
+const BlenderModels= {
+  path: "/BlenderModels",
+  label: "Blender Models",
+  title: `BlenderModels – ${person.name}`,
+  description: `Design and dev projects by ${person.name}`,
+  // Create new project pages by adding a new .mdx file to app/blog/posts
+  // All projects will be listed on the /home and /work routes
+};
 const wallart = {
   path: "/wallart",
   label: "Art",
@@ -292,4 +300,4 @@ const gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery,wallart };
+export { person, social, newsletter, home, about, blog, work, gallery,wallart ,BlenderModels};
