@@ -198,8 +198,9 @@ export const Header = () => {
             vertical="center"
             textVariant="body-default-s"
             gap="20"
+            hide="s"
           >
-            <Flex hide="s">{display.time && <TimeDisplay timeZone={person.location} />}</Flex>
+            IST Time : <Flex hide="s">{display.time &&  <TimeDisplay timeZone={person.location} />}</Flex>
           </Flex>
         </Flex>
       </Flex>

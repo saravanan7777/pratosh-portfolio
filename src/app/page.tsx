@@ -2,7 +2,7 @@ import React from "react";
 
 import { Heading, Flex, Text, Button, Avatar, RevealFx, Column, Badge, Row } from "@/once-ui/components";
 import { Projects } from "@/components/work/Projects";
-
+import { Blender } from "@/components/work/Blender";
 import { baseURL, routes } from "@/app/resources";
 import { home, about, person, newsletter } from "@/app/resources/content";
 import { Mailchimp } from "@/components";
@@ -83,6 +83,16 @@ export default function Home() {
             <Badge background="brand-alpha-weak" paddingX="12" paddingY="4" onBackground="neutral-strong" textVariant="label-default-s" arrow={false}
               href="/work">
               <Row paddingY="2">{"View All Projects"}</Row>
+            </Badge>
+         </div>
+      </RevealFx>
+
+      <RevealFx dir="column" translateY="16" delay={0.6}>
+        <Blender range={[1, 1]} />
+        <div style={{marginInline:"auto", marginTop:"-20px"}}>
+            <Badge background="brand-alpha-weak" paddingX="12" paddingY="4" onBackground="neutral-strong" textVariant="label-default-s" arrow={false}
+              href="/BlenderModels">
+              <Row paddingY="2">{"View All 3D Works"}</Row>
             </Badge>
          </div>
       </RevealFx>
