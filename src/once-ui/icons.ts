@@ -27,6 +27,7 @@ import {
   HiSun,
   HiOutlineDocument,
   HiPaintBrush,
+  HiOutlinePaintBrush,
 } from "react-icons/hi2";
 
 import {
@@ -75,7 +76,7 @@ export const iconLibrary: Record<string, IconType> = {
   moon: HiMoon,
   sun: HiSun,
   document: HiOutlineDocument,
-  paintbrush:HiPaintBrush,
+  paintbrush:HiOutlinePaintBrush,
   cube: PiCubeDuotone,
 };
 
