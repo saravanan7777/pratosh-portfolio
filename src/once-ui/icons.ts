@@ -39,7 +39,7 @@ import {
   PiCubeDuotone,
 } from "react-icons/pi";
 
-import { FaDiscord, FaGithub, FaLinkedin, FaX } from "react-icons/fa6";
+import { FaDiscord, FaGithub, FaInstagram, FaLinkedin, FaX } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
   chevronUp: HiChevronUp,
@@ -78,6 +78,7 @@ export const iconLibrary: Record<string, IconType> = {
   document: HiOutlineDocument,
   paintbrush:HiOutlinePaintBrush,
   cube: PiCubeDuotone,
+  insta: FaInstagram,
 };
 
 export type IconLibrary = typeof iconLibrary;

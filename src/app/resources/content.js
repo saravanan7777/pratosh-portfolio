@@ -33,16 +33,18 @@ const social = [
     icon: "linkedin",
     link: "https://www.linkedin.com/in/pratosh-r-009798217/",
   },
-  {
-    name: "X",
-    icon: "x",
-    link: "",
-  },
+ 
   {
     name: "Email",
     icon: "email",
     link: `mailto:${person.email}`,
   },
+  {
+    name: "Instagram",
+    icon: "insta",
+    link: `https://www.instagram.com/proto_art21?igsh=MTZhMHhzdWZkejAwaA==`,
+  },
+  
 ];
 
 const home = {
@@ -59,7 +61,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Pratosh — a UX Designer, Digital & Wall Artist.
+      I'm Pratosh — a UX-UI Designer, Digital & Wall Artist.
       <br /> I craft engaging experiences that bridge the digital and physical worlds.
 
 
@@ -101,20 +103,15 @@ const about = {
         timeframe: "2023 - Present",
         role: "UX UI Designer",
         achievements: [
-         <>
-         Working on Jira to create and manage
-          project tasks, ensuring timely completion
-          and efficient workflow tracking
-          </>,
-          <>
-          Develop and execute usability tests,
-          analyzing results to identify pain points
-          and areas for improvement
-          </>,
-          <>
-          Improved product usability by 25% through
-          targeted research and iterative testing.
-         </>
+          <>Worked on responsive ADA with WCAG requirements for both B2B and B2C. I got an excellent experience working here.</>,
+
+          <>worked together with Stakeholders, developers and product managers to convert intricate business requirements into design systems that are scalable and usable.</>,
+          
+          <>Promoted responsive design and accessibility to guarantee usability in business settings across a range of user roles and devices.</>,
+          
+          <>Figma and additional technologies were used to create wireframes, interactive prototypes, and design specifications for smooth stakeholder alignment and handoff.</>,
+          
+          <>created sophisticated subscription flows and user-friendly workflows specifically for end users, which led to a rise in feature usage and a decrease in support tickets.</>
         ],
         images: [],
       },
@@ -123,18 +120,15 @@ const about = {
         timeframe: "2021 - 2023",
         role: "UX UI Designer",
         achievements: [
-          <>
-            3D object making and graphical
-            designing for the required project.
-          </>,
-          <>
-             Development of Mobile app designs and
-            website pages through understanding the
-            user experience and presenting case study.
-          </>,
-          <>Transition of consumer inclined data to
-            application.
-          </>,
+          <>Actively improved my knowledge in Adobe Creative Suite, specifically Photoshop, Illustrator, Figma, enhancing visual storytelling, precision, and brand consistency. </>,
+
+<>Used figma to create high-fidelity UI mockups and interactive prototypes, and have improved iconography, typography, and layout design. </>,
+          
+<>Used Photoshop and Illustrator to refine assets, create responsive UI visuals, and optimize imagery for web and mobile applications.</>,
+          
+<>Applied advanced layer management, smart objects, and asset libraries to streamline design workflow and cross-team collaboration.</>,
+          
+<>Continuously practiced visual hierarchy principles and accessibility standards, bridging the gap between visual appeal and usability.</>,
         ],
         images: [],
       },
