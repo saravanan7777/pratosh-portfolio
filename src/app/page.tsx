@@ -78,6 +78,7 @@ export default function Home() {
       </Column>
       
       <RevealFx dir="column" translateY="16" delay={0.6}>
+        <Projects range={[2, 2]} />
         <Projects range={[1, 1]} />
         <div style={{marginInline:"auto", marginTop:"-20px"}}>
             <Badge background="brand-alpha-weak" paddingX="12" paddingY="4" onBackground="neutral-strong" textVariant="label-default-s" arrow={false}
