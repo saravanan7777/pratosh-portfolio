@@ -140,7 +140,7 @@ const about = {
     institutions: [
       {
         name: "Kumaraguru College of Technology",
-        description: <>Bachelor of Engineering - BE, Aeronautical/Aerospace Engineering Technology
+        description: <>Bachelor of Engineering - BE, Aeronautical Engineering Technology
         <br/>
         Aug 2016 - Jul 2020</>,
       },
