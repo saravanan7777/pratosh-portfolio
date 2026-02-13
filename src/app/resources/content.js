@@ -99,8 +99,33 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
+        company: "Crisil",
+        timeframe: "2025 - Present",
+        role: "UX UI Designer",
+        achievements: [
+            <> My role focused on designing highly secure, data-intensive workflows while ensuring usability across complex financial operations. I collaborated closely with product managers, engineers, compliance teams, and stakeholders to translate regulatory and business requirements into scalable, user-centric design solutions.</>,
+
+           <> Designed end-to-end user experiences for enterprise fintech platforms involving credit risk, ratings, financial data analytics, and reporting workflows.</>,
+
+            <>Led UX strategy for highly secure applications with multi-layer authentication, role-based access control, and sensitive financial data handling.</>,
+
+            <>Simplified complex financial processes into intuitive dashboards, workflows, and decision-support interfaces.</>,
+
+            <>Created wireframes, prototypes, and high-fidelity UI systems aligned with enterprise design standards and accessibility guidelines.</>,
+
+            <>Worked within secure environments ensuring compliance with internal security policies and regulatory frameworks.</>,
+
+            <>Built and maintained scalable design systems for consistency across multiple enterprise products.</>,
+
+            <>Collaborated with engineering teams to ensure design feasibility, performance optimization, and seamless implementation</>,
+            
+            <>Solved multiple complex design challenges in data-heavy platforms by restructuring information architecture and improving workflow clarity.</>
+                    ],
+        images: [],
+      },
+      {
         company: "Ingeniator Software",
-        timeframe: "2023 - Present",
+        timeframe: "2023 - 2025",
         role: "UX UI Designer",
         achievements: [
           <>Worked on responsive ADA with WCAG requirements for both B2B and B2C. I got an excellent experience working here.</>,
